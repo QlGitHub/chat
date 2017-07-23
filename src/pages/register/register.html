@@ -1,0 +1,41 @@
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>register</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+<ion-content padding>
+  <h2>Register</h2>
+  <form [formGroup]="registerForm" (submit)="doRegister($event, email.value, password.value, username.value)" novalidate>
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input #email formControlName="email" type="email" (change)="elementChanged(email)" placeholder="Your email address"
+        [class.invalid]="!registerForm.controls.email.valid && (emailChanged || submitAttempt)"></ion-input>
+    </ion-item>
+    <ion-item class="error-message" *ngIf="!registerForm.controls.email.valid  && (emailChanged || submitAttempt)">
+      <p>Please enter a valid email.</p>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Password</ion-label>
+      <ion-input #password formControlName="password" type="password" (change)="elementChanged(password)" placeholder="Your password"
+        [class.invalid]="!registerForm.controls.password.valid && (passwordChanged || submitAttempt)"></ion-input>
+    </ion-item>
+    <ion-item class="error-message" *ngIf="!registerForm.controls.password.valid  && (passwordChanged || submitAttempt)">
+      <p>Your password should contain at least 6 characters.</p>
+    </ion-item>
+    <ion-item>
+      <ion-label stacked>Username</ion-label>
+      <ion-input #username formControlName="username" type="text" (change)="elementChanged(username)" placeholder="Your Username"
+        [class.invalid]="!registerForm.controls.username.valid && (usernameChanged || submitAttempt)"></ion-input>
+    </ion-item>
+    <ion-item class="error-message" *ngIf="!registerForm.controls.username.valid  && (usernameChanged || submitAttempt)">
+      <p>Your username can't be empty.</p>
+    </ion-item>
+    <button ion-button block type="submit">
+      Register
+    </button>
+  </form>
+  <button ion-button outline (click)="fakeRegister()">Fake Users</button>
+</ion-content>

@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Friends
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addFriends()">
+          <ion-icon name="md-add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+   <ion-list>
+    <ion-list-header *ngIf="friends && friends.length > 0">
+      You have {{friends.length}} friends
+    </ion-list-header>
+    <ion-item *ngFor="let friend of friends">
+      <ion-avatar item-start>
+        <img [src]="friend.avatar">
+      </ion-avatar>
+      <h2>{{friend.firstName}}</h2>
+      <p>{{friend.email}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>

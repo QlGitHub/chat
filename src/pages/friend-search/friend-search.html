@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-searchbar (ionInput)="searchFriends($event.target.value)"></ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="list-avatar-page">
+  
+  <ion-list>
+    <ion-list-header>Search results:</ion-list-header>
+    <ion-item *ngFor="let result of results">
+      <ion-avatar item-start>
+        <img [src]="result.avatar">
+      </ion-avatar>
+      <ion-buttons item-end>
+        <button ion-button clear large *ngIf="isExistingFriend(result.id)">
+          <ion-icon name="md-checkmark"></ion-icon>
+        </button>
+        <button ion-button clear large (click)="addFriend(result)"
+          *ngIf="!isExistingFriend(result.id)" [disabled]="loading">
+          <ion-icon name="md-add-circle"></ion-icon>
+        </button>
+      </ion-buttons>
+      <h2>{{result.firstName}}</h2>
+      <p>{{result.email}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
