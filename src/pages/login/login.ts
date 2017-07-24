@@ -1,5 +1,5 @@
 import { UserProvider } from './../../providers/user/user';
-import { HomePage } from './../home/home';
+import { ThreadsPage } from './../threads/threads';
 import { RegisterPage } from './../register/register';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component, OnInit } from '@angular/core';
@@ -57,7 +57,7 @@ export class LoginPage implements OnInit {
       this.authProvider
         .signInWithEmail$(this.loginForm.value.email, this.loginForm.value.password)
         .subscribe((data) => {
-          this.navCtrl.setRoot(HomePage);
+          this.navCtrl.setRoot(ThreadsPage);
         }, (error) => {
           if (error) {
             // TODO: refactor promise with Observable
@@ -85,7 +85,7 @@ export class LoginPage implements OnInit {
     this.authProvider.signInWithGoogle$()
       .switchMap(user => this.userProvider.saveUser$(user))
       .subscribe(() => {
-        this.navCtrl.setRoot(HomePage);
+        this.navCtrl.setRoot(ThreadsPage);
       });
   }
 }

@@ -1,7 +1,7 @@
 import { RandomProvider } from './../../providers/random/random';
 import { UserModel } from './../../models/user.model';
 import { UserProvider } from './../../providers/user/user';
-import { HomePage } from './../home/home';
+import { ThreadsPage } from './../threads/threads';
 import { Validators } from '@angular/forms';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { AuthProvider } from './../../providers/auth/auth';
@@ -101,7 +101,7 @@ export class RegisterPage implements OnInit {
         email, password, username
       };
       this.registerHelper(params).subscribe(res => {
-        this.navCtrl.setRoot(HomePage);
+        this.navCtrl.setRoot(ThreadsPage);
       }, error => {
         let alert = this.alertCtrl.create({
           message: error,

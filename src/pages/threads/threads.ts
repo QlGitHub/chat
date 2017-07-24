@@ -6,10 +6,10 @@ import { NavController, LoadingController, Loading } from 'ionic-angular';
 import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-threads',
+  templateUrl: 'threads.html'
 })
-export class HomePage implements OnInit {
+export class ThreadsPage implements OnInit {
   loading: Loading;
 
   constructor(public navCtrl: NavController, private authProvider: AuthProvider,
