@@ -1,5 +1,4 @@
 import { FriendModel } from './../../models/friend.model';
-import { UserProvider } from './../../providers/user/user';
 import { AuthProvider } from './../../providers/auth/auth';
 import { FriendProvider } from './../../providers/friend/friend';
 import { FriendSearchPage } from './../friend-search/friend-search';

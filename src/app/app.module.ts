@@ -25,6 +25,8 @@ import { RandomProvider } from '../providers/random/random';
 import { HttpModule } from '@angular/http';
 
 import { FirebaseConfig } from "../environments/environment";
+import { ThreadProvider } from '../providers/thread/thread';
+import { MessageProvider } from '../providers/message/message';
 
 @NgModule({
   declarations: [
@@ -65,7 +67,9 @@ import { FirebaseConfig } from "../environments/environment";
     UserProvider,
     UserProvider,
     FriendProvider,
-    RandomProvider
+    RandomProvider,
+    ThreadProvider,
+    MessageProvider
   ]
 })
 export class AppModule { }

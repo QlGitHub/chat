@@ -1,7 +1,10 @@
+import { UUID_NAMESPACE } from './../../environments/environment';
 import { Observable } from 'rxjs/Observable';
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+
+import * as uuid from 'uuid/v5';
 
 @Injectable()
 export class RandomProvider {
@@ -35,8 +38,12 @@ export class RandomProvider {
     });
   }
 
-  capitalize(str: string): string {
-    return (str && str.length > 0) ? 
+  uuid(name): string {
+    return uuid(name, UUID_NAMESPACE);
+  }
+
+  private capitalize(str: string): string {
+    return (str && str.length > 0) ?
       str[0].toUpperCase() + str.slice(1) : str;
   }
 }

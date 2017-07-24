@@ -7,7 +7,7 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component, OnInit } from '@angular/core';
 import {
-  NavController, NavParams, AlertController, LoadingController,
+  NavController, AlertController, LoadingController,
   Loading
 } from 'ionic-angular';
 
@@ -15,8 +15,6 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/observable/forkJoin';
-
-import * as faker from 'faker';
 
 @Component({
   selector: 'page-register',

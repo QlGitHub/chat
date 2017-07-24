@@ -1,11 +1,10 @@
-import { UserModel } from './../../models/user.model';
 import { UserProvider } from './../../providers/user/user';
 import { HomePage } from './../home/home';
 import { RegisterPage } from './../register/register';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component, OnInit } from '@angular/core';
 import {
-  NavController, NavParams, LoadingController,
+  NavController, LoadingController,
   AlertController, Loading
 } from 'ionic-angular';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";

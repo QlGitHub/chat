@@ -1,9 +1,9 @@
 import { LoginPage } from './../login/login';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component, OnInit } from '@angular/core';
-import { NavController, LoadingController, Loading, LoadingOptions } from 'ionic-angular';
+import { NavController, LoadingController, Loading } from 'ionic-angular';
 
-import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
   selector: 'page-home',
@@ -12,8 +12,8 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 export class HomePage implements OnInit {
   loading: Loading;
 
-  constructor(public navCtrl: NavController, private afDB: AngularFireDatabase,
-    private authProvider: AuthProvider, private loadingCtrl: LoadingController) { }
+  constructor(public navCtrl: NavController, private authProvider: AuthProvider,
+    private loadingCtrl: LoadingController) { }
 
   ngOnInit(): void {
     this.loading = this.loadingCtrl.create({
