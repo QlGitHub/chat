@@ -1,0 +1,20 @@
+{
+  "EVeKhPiwNpdijyHQ974qilk82MY2": {
+    "56ef96a3-ed61-415e-8f3a-5ceb5e337a75": {
+      "id": "56ef96a3-ed61-415e-8f3a-5ceb5e337a75",
+      "lastMsg": "How are you?",
+      "modifiedAt": "2017-07-24T23:32:08-04:00",
+      "ownerId": "EVeKhPiwNpdijyHQ974qilk82MY2",
+      "participantId": "OI9gk7xexSN1TEk7ll3PZsh5Tin2"
+    }
+  },
+  "OI9gk7xexSN1TEk7ll3PZsh5Tin2": {
+    "56ef96a3-ed61-415e-8f3a-5ceb5e337a75": {
+      "id": "56ef96a3-ed61-415e-8f3a-5ceb5e337a75",
+      "lastMsg": "How are you?",
+      "modifiedAt": "2017-07-24T23:32:08-04:00",
+      "ownerId": "OI9gk7xexSN1TEk7ll3PZsh5Tin2",
+      "participantId": "EVeKhPiwNpdijyHQ974qilk82MY2"
+    }
+  }
+}

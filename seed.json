@@ -1,0 +1,480 @@
+{
+  "Friends": {
+    "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3": {
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      },
+      "llqqcmmWBigD1iU5r0yk88IgYNi2": {
+        "avatar": "https://randomuser.me/api/portraits/men/8.jpg",
+        "email": "mitchell.flores@example.com",
+        "firstName": "Mitchell",
+        "id": "llqqcmmWBigD1iU5r0yk88IgYNi2",
+        "lastName": "Flores",
+        "username": "orangelion636"
+      }
+    },
+    "9UndlKUWlIW905w1qVVxV9ni4TX2": {
+      "NlQjdkXuDXha0nmG5a9a3B4ocCy1": {
+        "avatar": "",
+        "email": "tuowang1989@yahoo.com",
+        "firstName": "",
+        "id": "NlQjdkXuDXha0nmG5a9a3B4ocCy1",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "YPVgilBVSTdGQVrpL1502ROMKCD3": {
+        "avatar": "",
+        "email": "tuowang1989@hotmail.com",
+        "firstName": "",
+        "id": "YPVgilBVSTdGQVrpL1502ROMKCD3",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+        "avatar": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "email": "tuowang1989@gmail.com",
+        "firstName": "Tuo",
+        "id": "xm1IvG4EYUXk0y2x7lvQpX1ibMN2",
+        "lastName": "Wang",
+        "username": "tuowang1989"
+      }
+    },
+    "EVeKhPiwNpdijyHQ974qilk82MY2": {
+      "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3": {
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "email": "marcus.fields@example.com",
+        "firstName": "marcus",
+        "id": "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3",
+        "lastName": "fields",
+        "username": "organicgoose364"
+      },
+      "N7vtOXTd66fqyAUDFq4Sh1LPNRL2": {
+        "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+        "email": "alyssa.williamson@example.com",
+        "firstName": "Alyssa",
+        "id": "N7vtOXTd66fqyAUDFq4Sh1LPNRL2",
+        "lastName": "Williamson",
+        "username": "ticklishkoala355"
+      },
+      "NlQjdkXuDXha0nmG5a9a3B4ocCy1": {
+        "avatar": "",
+        "email": "tuowang1989@yahoo.com",
+        "firstName": "",
+        "id": "NlQjdkXuDXha0nmG5a9a3B4ocCy1",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "OI9gk7xexSN1TEk7ll3PZsh5Tin2": {
+        "avatar": "https://randomuser.me/api/portraits/women/49.jpg",
+        "email": "anita.fisher@example.com",
+        "firstName": "anita",
+        "id": "OI9gk7xexSN1TEk7ll3PZsh5Tin2",
+        "lastName": "fisher",
+        "username": "organicdog538"
+      },
+      "P56YHyh4QRQaCRkoeXyvb3IzkKI2": {
+        "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
+        "email": "carla.ford@example.com",
+        "firstName": "carla",
+        "id": "P56YHyh4QRQaCRkoeXyvb3IzkKI2",
+        "lastName": "ford",
+        "username": "smallmouse621"
+      },
+      "Q7HXuHJSWqYR0R5MBTDLuqnYlNl2": {
+        "avatar": "https://randomuser.me/api/portraits/men/21.jpg",
+        "email": "troy.holt@example.com",
+        "firstName": "Troy",
+        "id": "Q7HXuHJSWqYR0R5MBTDLuqnYlNl2",
+        "lastName": "Holt",
+        "username": "yellowelephant614"
+      },
+      "YPVgilBVSTdGQVrpL1502ROMKCD3": {
+        "avatar": "",
+        "email": "tuowang1989@hotmail.com",
+        "firstName": "",
+        "id": "YPVgilBVSTdGQVrpL1502ROMKCD3",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+        "avatar": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "email": "tuowang1989@gmail.com",
+        "firstName": "Tuo",
+        "id": "xm1IvG4EYUXk0y2x7lvQpX1ibMN2",
+        "lastName": "Wang",
+        "username": "tuowang1989"
+      }
+    },
+    "N7vtOXTd66fqyAUDFq4Sh1LPNRL2": {
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      }
+    },
+    "NlQjdkXuDXha0nmG5a9a3B4ocCy1": {
+      "9UndlKUWlIW905w1qVVxV9ni4TX2": {
+        "avatar": "",
+        "email": "qiannanli@rutgers.edu",
+        "firstName": "",
+        "id": "9UndlKUWlIW905w1qVVxV9ni4TX2",
+        "lastName": "",
+        "username": "qiannan3"
+      },
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      },
+      "hETDnaX4lBVAMJZsp0Gm37VAWiD3": {
+        "avatar": "",
+        "email": "qiannanli@163.com",
+        "firstName": "",
+        "id": "hETDnaX4lBVAMJZsp0Gm37VAWiD3",
+        "lastName": "",
+        "username": "qiannan163"
+      },
+      "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+        "avatar": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "email": "tuowang1989@gmail.com",
+        "firstName": "Tuo",
+        "id": "xm1IvG4EYUXk0y2x7lvQpX1ibMN2",
+        "lastName": "Wang",
+        "username": "tuowang1989"
+      }
+    },
+    "OI9gk7xexSN1TEk7ll3PZsh5Tin2": {
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      },
+      "hETDnaX4lBVAMJZsp0Gm37VAWiD3": {
+        "avatar": "",
+        "email": "qiannanli@163.com",
+        "firstName": "",
+        "id": "hETDnaX4lBVAMJZsp0Gm37VAWiD3",
+        "lastName": "",
+        "username": "qiannan163"
+      },
+      "llqqcmmWBigD1iU5r0yk88IgYNi2": {
+        "avatar": "https://randomuser.me/api/portraits/men/8.jpg",
+        "email": "mitchell.flores@example.com",
+        "firstName": "Mitchell",
+        "id": "llqqcmmWBigD1iU5r0yk88IgYNi2",
+        "lastName": "Flores",
+        "username": "orangelion636"
+      }
+    },
+    "P56YHyh4QRQaCRkoeXyvb3IzkKI2": {
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      }
+    },
+    "Q7HXuHJSWqYR0R5MBTDLuqnYlNl2": {
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      }
+    },
+    "YPVgilBVSTdGQVrpL1502ROMKCD3": {
+      "9UndlKUWlIW905w1qVVxV9ni4TX2": {
+        "avatar": "",
+        "email": "qiannanli@rutgers.edu",
+        "firstName": "",
+        "id": "9UndlKUWlIW905w1qVVxV9ni4TX2",
+        "lastName": "",
+        "username": "qiannan3"
+      },
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      },
+      "mWboMFtTrdRIttQtxZKeMn7DVQL2": {
+        "avatar": "https://randomuser.me/api/portraits/women/84.jpg",
+        "email": "marie.gonzalez@example.com",
+        "firstName": "Marie",
+        "id": "mWboMFtTrdRIttQtxZKeMn7DVQL2",
+        "lastName": "Gonzalez",
+        "username": "redrabbit985"
+      },
+      "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+        "avatar": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "email": "tuowang1989@gmail.com",
+        "firstName": "Tuo",
+        "id": "xm1IvG4EYUXk0y2x7lvQpX1ibMN2",
+        "lastName": "Wang",
+        "username": "tuowang1989"
+      }
+    },
+    "hETDnaX4lBVAMJZsp0Gm37VAWiD3": {
+      "NlQjdkXuDXha0nmG5a9a3B4ocCy1": {
+        "avatar": "",
+        "email": "tuowang1989@yahoo.com",
+        "firstName": "",
+        "id": "NlQjdkXuDXha0nmG5a9a3B4ocCy1",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "OI9gk7xexSN1TEk7ll3PZsh5Tin2": {
+        "avatar": "https://randomuser.me/api/portraits/women/49.jpg",
+        "email": "anita.fisher@example.com",
+        "firstName": "anita",
+        "id": "OI9gk7xexSN1TEk7ll3PZsh5Tin2",
+        "lastName": "fisher",
+        "username": "organicdog538"
+      },
+      "l2Q0PCpxyxYqjy2NMf16CZjxQu43": {
+        "avatar": "https://randomuser.me/api/portraits/men/95.jpg",
+        "email": "jacob.soto@example.com",
+        "firstName": "Jacob",
+        "id": "l2Q0PCpxyxYqjy2NMf16CZjxQu43",
+        "lastName": "Soto",
+        "username": "beautifulmeercat433"
+      }
+    },
+    "l2Q0PCpxyxYqjy2NMf16CZjxQu43": {
+      "hETDnaX4lBVAMJZsp0Gm37VAWiD3": {
+        "avatar": "",
+        "email": "qiannanli@163.com",
+        "firstName": "",
+        "id": "hETDnaX4lBVAMJZsp0Gm37VAWiD3",
+        "lastName": "",
+        "username": "qiannan163"
+      }
+    },
+    "llqqcmmWBigD1iU5r0yk88IgYNi2": {
+      "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3": {
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "email": "marcus.fields@example.com",
+        "firstName": "marcus",
+        "id": "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3",
+        "lastName": "fields",
+        "username": "organicgoose364"
+      },
+      "OI9gk7xexSN1TEk7ll3PZsh5Tin2": {
+        "avatar": "https://randomuser.me/api/portraits/women/49.jpg",
+        "email": "anita.fisher@example.com",
+        "firstName": "anita",
+        "id": "OI9gk7xexSN1TEk7ll3PZsh5Tin2",
+        "lastName": "fisher",
+        "username": "organicdog538"
+      },
+      "avatar": "",
+      "email": "",
+      "firstName": "",
+      "id": "",
+      "lastName": "",
+      "username": ""
+    },
+    "mWboMFtTrdRIttQtxZKeMn7DVQL2": {
+      "YPVgilBVSTdGQVrpL1502ROMKCD3": {
+        "avatar": "",
+        "email": "tuowang1989@hotmail.com",
+        "firstName": "",
+        "id": "YPVgilBVSTdGQVrpL1502ROMKCD3",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "avatar": "",
+      "email": "",
+      "firstName": "",
+      "id": "",
+      "lastName": "",
+      "username": ""
+    },
+    "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+      "9UndlKUWlIW905w1qVVxV9ni4TX2": {
+        "avatar": "",
+        "email": "qiannanli@rutgers.edu",
+        "firstName": "",
+        "id": "9UndlKUWlIW905w1qVVxV9ni4TX2",
+        "lastName": "",
+        "username": "qiannan3"
+      },
+      "EVeKhPiwNpdijyHQ974qilk82MY2": {
+        "avatar": "",
+        "email": "qiannanli@yahoo.com",
+        "firstName": "",
+        "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+        "lastName": "",
+        "username": "qiannan"
+      },
+      "NlQjdkXuDXha0nmG5a9a3B4ocCy1": {
+        "avatar": "",
+        "email": "tuowang1989@yahoo.com",
+        "firstName": "",
+        "id": "NlQjdkXuDXha0nmG5a9a3B4ocCy1",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "YPVgilBVSTdGQVrpL1502ROMKCD3": {
+        "avatar": "",
+        "email": "tuowang1989@hotmail.com",
+        "firstName": "",
+        "id": "YPVgilBVSTdGQVrpL1502ROMKCD3",
+        "lastName": "",
+        "username": "tuowang"
+      },
+      "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+        "avatar": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "email": "tuowang1989@gmail.com",
+        "firstName": "Tuo",
+        "id": "xm1IvG4EYUXk0y2x7lvQpX1ibMN2",
+        "lastName": "Wang",
+        "username": "tuowang1989"
+      }
+    }
+  },
+  "Users": {
+    "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3": {
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "email": "marcus.fields@example.com",
+      "firstName": "marcus",
+      "id": "2ayvo9k8wDNeYJ7ECQuvgWDmFvI3",
+      "lastName": "fields",
+      "username": "organicgoose364"
+    },
+    "9UndlKUWlIW905w1qVVxV9ni4TX2": {
+      "avatar": "",
+      "email": "qiannanli@rutgers.edu",
+      "firstName": "",
+      "id": "9UndlKUWlIW905w1qVVxV9ni4TX2",
+      "lastName": "",
+      "username": "qiannan3"
+    },
+    "EVeKhPiwNpdijyHQ974qilk82MY2": {
+      "avatar": "",
+      "email": "qiannanli@yahoo.com",
+      "firstName": "",
+      "id": "EVeKhPiwNpdijyHQ974qilk82MY2",
+      "lastName": "",
+      "username": "qiannan"
+    },
+    "N7vtOXTd66fqyAUDFq4Sh1LPNRL2": {
+      "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+      "email": "alyssa.williamson@example.com",
+      "firstName": "Alyssa",
+      "id": "N7vtOXTd66fqyAUDFq4Sh1LPNRL2",
+      "lastName": "Williamson",
+      "username": "ticklishkoala355"
+    },
+    "NlQjdkXuDXha0nmG5a9a3B4ocCy1": {
+      "email": "tuowang1989@yahoo.com",
+      "id": "NlQjdkXuDXha0nmG5a9a3B4ocCy1",
+      "username": "tuowang"
+    },
+    "OI9gk7xexSN1TEk7ll3PZsh5Tin2": {
+      "avatar": "https://randomuser.me/api/portraits/women/49.jpg",
+      "email": "anita.fisher@example.com",
+      "firstName": "anita",
+      "id": "OI9gk7xexSN1TEk7ll3PZsh5Tin2",
+      "lastName": "fisher",
+      "username": "organicdog538"
+    },
+    "P56YHyh4QRQaCRkoeXyvb3IzkKI2": {
+      "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
+      "email": "carla.ford@example.com",
+      "firstName": "carla",
+      "id": "P56YHyh4QRQaCRkoeXyvb3IzkKI2",
+      "lastName": "ford",
+      "username": "smallmouse621"
+    },
+    "Q7HXuHJSWqYR0R5MBTDLuqnYlNl2": {
+      "avatar": "https://randomuser.me/api/portraits/men/21.jpg",
+      "email": "troy.holt@example.com",
+      "firstName": "Troy",
+      "id": "Q7HXuHJSWqYR0R5MBTDLuqnYlNl2",
+      "lastName": "Holt",
+      "username": "yellowelephant614"
+    },
+    "YPVgilBVSTdGQVrpL1502ROMKCD3": {
+      "email": "tuowang1989@hotmail.com",
+      "id": "YPVgilBVSTdGQVrpL1502ROMKCD3",
+      "username": "tuowang"
+    },
+    "cwmGnrYwlOQw6YadMnaBc7Uapav1": {
+      "avatar": "https://randomuser.me/api/portraits/women/45.jpg",
+      "email": "bobbie.long@example.com",
+      "firstName": "Bobbie",
+      "id": "cwmGnrYwlOQw6YadMnaBc7Uapav1",
+      "lastName": "Long",
+      "username": "lazypeacock249"
+    },
+    "hETDnaX4lBVAMJZsp0Gm37VAWiD3": {
+      "avatar": "",
+      "email": "qiannanli@163.com",
+      "firstName": "",
+      "id": "hETDnaX4lBVAMJZsp0Gm37VAWiD3",
+      "lastName": "",
+      "username": "qiannan163"
+    },
+    "l2Q0PCpxyxYqjy2NMf16CZjxQu43": {
+      "avatar": "https://randomuser.me/api/portraits/men/95.jpg",
+      "email": "jacob.soto@example.com",
+      "firstName": "Jacob",
+      "id": "l2Q0PCpxyxYqjy2NMf16CZjxQu43",
+      "lastName": "Soto",
+      "username": "beautifulmeercat433"
+    },
+    "llqqcmmWBigD1iU5r0yk88IgYNi2": {
+      "avatar": "https://randomuser.me/api/portraits/men/8.jpg",
+      "email": "mitchell.flores@example.com",
+      "firstName": "Mitchell",
+      "id": "llqqcmmWBigD1iU5r0yk88IgYNi2",
+      "lastName": "Flores",
+      "username": "orangelion636"
+    },
+    "mWboMFtTrdRIttQtxZKeMn7DVQL2": {
+      "avatar": "https://randomuser.me/api/portraits/women/84.jpg",
+      "email": "marie.gonzalez@example.com",
+      "firstName": "Marie",
+      "id": "mWboMFtTrdRIttQtxZKeMn7DVQL2",
+      "lastName": "Gonzalez",
+      "username": "redrabbit985"
+    },
+    "uTLzBB8KhJeG73XCESyt1o7qADA3": {
+      "avatar": "",
+      "email": "qiannanli@qq.com",
+      "firstName": "",
+      "id": "uTLzBB8KhJeG73XCESyt1o7qADA3",
+      "lastName": "",
+      "username": "qiannan2"
+    },
+    "xm1IvG4EYUXk0y2x7lvQpX1ibMN2": {
+      "avatar": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "email": "tuowang1989@gmail.com",
+      "firstName": "Tuo",
+      "id": "xm1IvG4EYUXk0y2x7lvQpX1ibMN2",
+      "lastName": "Wang",
+      "username": "tuowang1989"
+    }
+  }
+}

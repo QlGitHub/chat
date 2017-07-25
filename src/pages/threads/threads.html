@@ -5,13 +5,17 @@
 </ion-header>
 
 <ion-content padding>
- <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <ion-list>
+    <ion-list-header *ngIf="threads && threads.length > 0">
+      You have {{threads.length}} conversations
+    </ion-list-header>
+    <ion-item *ngFor="let thread of threads">
+        <ion-avatar *ngIf="isItemShown(thread)" item-start>
+          <img [src]="participants[thread.participantId].avatar">
+        </ion-avatar>
+        <h2 *ngIf="isItemShown(thread)">{{participants[thread.participantId].firstName}}</h2>
+        <p>{{thread.lastMsg}}</p>
+        <ion-note item-end>{{thread.modifiedAt}}</ion-note>
+    </ion-item>
+  </ion-list>
 </ion-content>
