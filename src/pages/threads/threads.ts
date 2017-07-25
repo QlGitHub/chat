@@ -29,8 +29,4 @@ export class ThreadsPage implements OnInit {
       }
     });
   }
-
-  signOut(): void {
-    this.authProvider.signOut();
-  }
 }

@@ -10,7 +10,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { MyApp } from './app.component';
-import { AboutPage } from '../pages/about/about';
+import { MePage } from '../pages/me/me';
 import { FriendsPage } from '../pages/friends/friends';
 import { ThreadsPage } from '../pages/threads/threads';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -31,7 +31,7 @@ import { MessageProvider } from '../providers/message/message';
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
+    MePage,
     FriendsPage,
     ThreadsPage,
     TabsPage,
@@ -51,7 +51,7 @@ import { MessageProvider } from '../providers/message/message';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
+    MePage,
     FriendsPage,
     ThreadsPage,
     TabsPage,

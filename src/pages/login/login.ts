@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs/Observable';
 import { UserProvider } from './../../providers/user/user';
 import { ThreadsPage } from './../threads/threads';
 import { RegisterPage } from './../register/register';
