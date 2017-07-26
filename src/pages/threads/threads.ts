@@ -1,3 +1,4 @@
+import { MessagesPage } from './../messages/messages';
 import { FriendsModel } from './../../models/friends.model';
 import { FriendModel } from './../../models/friend.model';
 import { FriendProvider } from './../../providers/friend/friend';
@@ -6,7 +7,7 @@ import { ThreadModel } from './../../models/thread.model';
 import { LoginPage } from './../login/login';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component, OnInit } from '@angular/core';
-import { NavController, LoadingController, Loading } from 'ionic-angular';
+import { NavController, LoadingController, Loading, NavParams } from 'ionic-angular';
 
 import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs/Observable';
@@ -22,9 +23,9 @@ export class ThreadsPage implements OnInit {
   participants: FriendsModel;
   userId: string;
 
-  constructor(public navCtrl: NavController, private authProvider: AuthProvider,
-    private loadingCtrl: LoadingController, private threadProvider: ThreadProvider,
-    private friendProvider: FriendProvider) { }
+  constructor(public navCtrl: NavController, private navParams: NavParams,
+    private authProvider: AuthProvider, private loadingCtrl: LoadingController,
+    private threadProvider: ThreadProvider, private friendProvider: FriendProvider) { }
 
   ngOnInit(): void {
     this.loading = this.loadingCtrl.create({
@@ -65,5 +66,12 @@ export class ThreadsPage implements OnInit {
 
   isItemShown(thread: ThreadModel): boolean {
     return !!thread && !!this.participants && !!this.participants[thread.participantId];
+  }
+
+  onClick(threadId: string, participant: FriendModel): void {
+    this.navCtrl.push(MessagesPage, {
+      threadId: threadId,
+      participant: { ...participant }
+    });
   }
 }

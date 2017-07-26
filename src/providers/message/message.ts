@@ -15,7 +15,14 @@ export class MessageProvider {
       this.afDb.object(`/Messages/${threadId}/${message.id}`).update(message));
   }
 
-  getAllMessages$(threadId: string) {
-    return this.afDb.list(`/Messages/${threadId}`);
+  getAllMessages$(threadId: string): Observable<MessageModel[]> {
+    if (!threadId) {
+      return Observable.of([]);
+    }
+    
+    return this.afDb.list(`/Messages/${threadId}`)
+      .map(res => {
+        return res.map(msg => new MessageModel(msg));
+      });
   }
 }

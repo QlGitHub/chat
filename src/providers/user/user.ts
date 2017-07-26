@@ -24,7 +24,7 @@ export class UserProvider {
       });
   }
 
-  getUser$(userId: string): Observable<any> {
+  getUser$(userId: string): Observable<UserModel> {
     return this.authProvider.isAuthenticated$()
       .switchMap(success => {
         if (success) {

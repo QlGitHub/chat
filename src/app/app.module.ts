@@ -8,6 +8,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { AngularFireModule } from "angularfire2";
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { MomentModule } from 'angular2-moment';
+import { ElasticModule } from 'ng-elastic';
 
 import { MyApp } from './app.component';
 import { MePage } from '../pages/me/me';
@@ -27,6 +29,7 @@ import { HttpModule } from '@angular/http';
 import { FirebaseConfig } from "../environments/environment";
 import { ThreadProvider } from '../providers/thread/thread';
 import { MessageProvider } from '../providers/message/message';
+import { ChatBubbleComponent } from '../components/chat-bubble/chat-bubble';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,8 @@ import { MessageProvider } from '../providers/message/message';
     LoginPage,
     RegisterPage,
     FriendSearchPage,
-    MessagesPage
+    MessagesPage,
+    ChatBubbleComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { MessageProvider } from '../providers/message/message';
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(FirebaseConfig),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    MomentModule,
+    ElasticModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

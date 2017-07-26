@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Chats</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -9,13 +9,13 @@
     <ion-list-header *ngIf="threads && threads.length > 0">
       You have {{threads.length}} conversations
     </ion-list-header>
-    <ion-item *ngFor="let thread of threads">
+    <ion-item *ngFor="let thread of threads; let i=index;" (click)="onClick(thread.id, participants[thread.participantId])">
         <ion-avatar *ngIf="isItemShown(thread)" item-start>
           <img [src]="participants[thread.participantId].avatar">
         </ion-avatar>
         <h2 *ngIf="isItemShown(thread)">{{participants[thread.participantId].firstName}}</h2>
         <p>{{thread.lastMsg}}</p>
-        <ion-note item-end>{{thread.modifiedAt}}</ion-note>
+        <ion-note item-end>{{thread.modifiedAt | amTimeAgo:true}}</ion-note>
     </ion-item>
   </ion-list>
 </ion-content>
