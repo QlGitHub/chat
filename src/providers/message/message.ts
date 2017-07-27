@@ -19,8 +19,12 @@ export class MessageProvider {
     if (!threadId) {
       return Observable.of([]);
     }
-    
-    return this.afDb.list(`/Messages/${threadId}`)
+
+    return this.afDb.list(`/Messages/${threadId}`, {
+      query: {
+        orderByChild: 'createdAt'
+      }
+    })
       .map(res => {
         return res.map(msg => new MessageModel(msg));
       });

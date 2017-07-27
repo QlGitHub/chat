@@ -6,11 +6,15 @@
 
 </ion-header>
 
-<!-- <chat-bubble></chat-bubble> -->
- <ion-content padding>
-  <ion-list>
+ <ion-content padding #msgList>
+  <ion-list no-lines>
     <ion-item *ngFor="let message of messages">
-      <p>{{message.content}}</p>
+      <chat-bubble [content]="message.content" 
+      [position]="isParticipant(message) ? 'left' : 'right'"
+      [time]="message.createdAt | amCalendar"
+      [name]="isParticipant(message) ? participant.firstName : user.firstName"
+      [avatar]="isParticipant(message) ? participant.avatar : user.avatar"
+      ></chat-bubble>
     </ion-item>
   </ion-list>
 

@@ -22,6 +22,11 @@
       </ion-avatar>
       <h2>{{friend.firstName}}</h2>
       <p>{{friend.email}}</p>
+      <ion-buttons item-end>
+        <button icon-only ion-button small outline (click)="startChat(friend)">
+          <ion-icon name="md-text"></ion-icon>
+        </button>
+      </ion-buttons>
     </ion-item>
   </ion-list>
 </ion-content>

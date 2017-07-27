@@ -1,3 +1,4 @@
+import { RandomProvider } from './../../providers/random/random';
 import { FriendModel } from './../../models/friend.model';
 import { AuthProvider } from './../../providers/auth/auth';
 import { FriendProvider } from './../../providers/friend/friend';
@@ -16,7 +17,7 @@ export class FriendsPage implements OnInit {
   friends: FriendModel[];
 
   constructor(private navCtrl: NavController, private friendProvider: FriendProvider,
-    private authProvider: AuthProvider) { }
+    private authProvider: AuthProvider, private randomProvider: RandomProvider) { }
 
   ngOnInit(): void {
     this.authProvider.getUserAuthData$()
@@ -31,5 +32,9 @@ export class FriendsPage implements OnInit {
 
   addFriends(): void {
     this.navCtrl.push(FriendSearchPage);
+  }
+
+  startChat(friend: FriendModel) {
+    // let chatId = this.randomProvider.uuid();
   }
 }

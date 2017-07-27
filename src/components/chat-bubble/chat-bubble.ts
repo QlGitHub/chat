@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'chat-bubble',
@@ -6,16 +6,11 @@ import { Component } from '@angular/core';
 })
 export class ChatBubbleComponent {
 
-  msg = {
-    content: 'Am I dreaming?',
-    isMe: true,
-    time: '12/3/2016',
-    senderName: '12345',
-    img: '../../assets/images/avatar-test.png',
-    position: 'left'
-  }
+  @Input() content: string;
+  @Input() position: string;
+  @Input() time: string;
+  @Input() name: string;
+  @Input() avatar: string;
 
-  constructor() {
-  }
-
+  constructor() { }
 }

@@ -5,12 +5,12 @@ import { FriendModel } from './../../models/friend.model';
 import { MessageModel } from './../../models/message.model';
 import { UserModel } from './../../models/user.model';
 import { UserProvider } from './../../providers/user/user';
-import { FriendProvider } from './../../providers/friend/friend';
 import { AuthProvider } from './../../providers/auth/auth';
 import { MessageProvider } from './../../providers/message/message';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+import { AfterViewInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import * as moment from 'moment';
 
@@ -18,17 +18,19 @@ import * as moment from 'moment';
   selector: 'page-messages',
   templateUrl: 'messages.html',
 })
-export class MessagesPage implements OnInit {
+export class MessagesPage implements OnInit, AfterViewInit {
   user: UserModel;
   participant: FriendModel;
   threadId: string;
   messages: MessageModel[];
   message: string;
 
+  @ViewChild('msgList') msgList: any;
+
   constructor(private navCtrl: NavController, private navParams: NavParams,
     private msgProvider: MessageProvider, private authProvider: AuthProvider,
-    private friendProvider: FriendProvider, private userProvider: UserProvider,
-    private randomProvider: RandomProvider, private threadProvider: ThreadProvider) {
+    private userProvider: UserProvider, private randomProvider: RandomProvider,
+    private threadProvider: ThreadProvider) {
   }
 
   ngOnInit(): void {
@@ -40,6 +42,9 @@ export class MessagesPage implements OnInit {
           return Observable.of({});
         }
       }).switchMap((user: UserModel) => {
+        if (!user || !user.id) {
+          return Observable.of([]);
+        }
         this.user = user;
         this.participant = new FriendModel(this.navParams.get('participant'));
         this.threadId = this.navParams.get('threadId');
@@ -47,6 +52,12 @@ export class MessagesPage implements OnInit {
       }).subscribe((messages: MessageModel[]) => {
         this.messages = messages;
       });
+  }
+
+  ngAfterViewInit(): void {
+    setTimeout(() => {
+      this.msgList.scrollToBottom(400);
+    }, 200);
   }
 
   sendMessage(): void {
@@ -89,6 +100,11 @@ export class MessagesPage implements OnInit {
     Observable.forkJoin(requests)
       .subscribe(() => {
         this.message = '';
+        this.msgList.scrollToBottom(300);
       });
+  }
+
+  isParticipant(message: MessageModel): boolean {
+    return message.ownerId === this.participant.id;
   }
 }
