@@ -35,4 +35,4 @@ Thumbs.db
 UserInterfaceState.xcuserstate
 
 mock.threads.json
-seed.json
+seed*.json
