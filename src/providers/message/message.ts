@@ -11,6 +11,10 @@ export class MessageProvider {
   constructor(private afDb: AngularFireDatabase) { }
 
   createMessage$(threadId: string, message: MessageModel): Observable<any> {
+    if (!threadId || !message) {
+      return Observable.of({});
+    }
+
     return Observable.fromPromise(
       this.afDb.object(`/Messages/${threadId}/${message.id}`).update(message));
   }

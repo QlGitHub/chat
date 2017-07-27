@@ -16,6 +16,10 @@ export class FriendProvider {
     private authProvider: AuthProvider) { }
 
   search$(keyword: string): Observable<any> {
+    if (!keyword) {
+      return Observable.of([]);
+    }
+    
     return this.authProvider.isAuthenticated$()
       .switchMap(success => {
         if (success) {
@@ -43,6 +47,10 @@ export class FriendProvider {
   }
 
   addFriend$(user: UserModel, friend: FriendModel): Observable<any> {
+    if (!user || !friend) {
+      return Observable.of({});
+    }
+    
     return this.authProvider.isAuthenticated$()
       .switchMap(success => {
         if (success) {

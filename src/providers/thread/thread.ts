@@ -10,12 +10,20 @@ export class ThreadProvider {
   constructor(private afDb: AngularFireDatabase) { }
 
   updateThread$(ownerId: string, thread: ThreadModel): Observable<any> {
+    if (!ownerId || !thread) {
+      return Observable.of({});
+    }
+
     return Observable.fromPromise(
       this.afDb.object(`/Threads/${ownerId}/${thread.id}`).update(thread));
   }
 
   // find all threads given an owner id
   getAllThreads$(ownerId: string): Observable<ThreadModel[]> {
+    if (!ownerId) {
+      return Observable.of([]);
+    }
+
     return this.afDb.list(`/Threads/${ownerId}`)
       .map(res => {
         let threads = [];

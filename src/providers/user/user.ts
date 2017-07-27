@@ -14,6 +14,10 @@ export class UserProvider {
     private authProvider: AuthProvider) { }
 
   saveUser$(user: UserModel): Observable<any> {
+    if (!user || !user.id) {
+      return Observable.of(null);
+    }
+
     return this.authProvider.isAuthenticated$()
       .switchMap((success: boolean) => {
         if (success) {
