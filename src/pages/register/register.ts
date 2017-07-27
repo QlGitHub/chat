@@ -1,7 +1,7 @@
+import { ThreadsPage } from './../threads/threads';
 import { RandomProvider } from './../../providers/random/random';
 import { UserModel } from './../../models/user.model';
 import { UserProvider } from './../../providers/user/user';
-import { ThreadsPage } from './../threads/threads';
 import { Validators } from '@angular/forms';
 import { FormGroup, FormBuilder } from '@angular/forms';
 import { AuthProvider } from './../../providers/auth/auth';

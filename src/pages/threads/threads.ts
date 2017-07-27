@@ -7,9 +7,8 @@ import { ThreadModel } from './../../models/thread.model';
 import { LoginPage } from './../login/login';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component, OnInit } from '@angular/core';
-import { NavController, LoadingController, Loading, NavParams } from 'ionic-angular';
+import { NavController, LoadingController, Loading } from 'ionic-angular';
 
-import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/combineLatest';
 
@@ -23,9 +22,9 @@ export class ThreadsPage implements OnInit {
   participants: FriendsModel;
   userId: string;
 
-  constructor(public navCtrl: NavController, private navParams: NavParams,
-    private authProvider: AuthProvider, private loadingCtrl: LoadingController,
-    private threadProvider: ThreadProvider, private friendProvider: FriendProvider) { }
+  constructor(public navCtrl: NavController, private authProvider: AuthProvider,
+    private loadingCtrl: LoadingController, private threadProvider: ThreadProvider,
+    private friendProvider: FriendProvider) { }
 
   ngOnInit(): void {
     this.loading = this.loadingCtrl.create({

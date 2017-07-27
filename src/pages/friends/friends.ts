@@ -40,6 +40,9 @@ export class FriendsPage implements OnInit {
         }
       }).switchMap((friends: FriendModel[]) => {
         this.friends = [...friends];
+        if (!friends || friends.length == 0) {
+          return Observable.of([]);
+        }
         return this.threadProvider.getAllThreads$(this.userId);
       }).subscribe((threads: ThreadModel[]) => {
         this.threads = [...threads];

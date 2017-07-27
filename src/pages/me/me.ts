@@ -1,4 +1,3 @@
-import { LoginPage } from './../login/login';
 import { AuthProvider } from './../../providers/auth/auth';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -14,7 +13,7 @@ export class MePage {
   signOut(): void {
     this.authProvider.signOut()
       .subscribe(() => {
-        this.navCtrl.setRoot(LoginPage);
+        this.navCtrl.popToRoot();
       });
   }
 }

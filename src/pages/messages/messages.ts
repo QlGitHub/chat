@@ -8,7 +8,7 @@ import { UserProvider } from './../../providers/user/user';
 import { AuthProvider } from './../../providers/auth/auth';
 import { MessageProvider } from './../../providers/message/message';
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavParams } from 'ionic-angular';
 
 import { AfterViewInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
@@ -27,10 +27,9 @@ export class MessagesPage implements OnInit, AfterViewInit {
 
   @ViewChild('msgList') msgList: any;
 
-  constructor(private navCtrl: NavController, private navParams: NavParams,
-    private msgProvider: MessageProvider, private authProvider: AuthProvider,
-    private userProvider: UserProvider, private randomProvider: RandomProvider,
-    private threadProvider: ThreadProvider) {
+  constructor(private navParams: NavParams, private msgProvider: MessageProvider,
+    private authProvider: AuthProvider, private userProvider: UserProvider,
+    private randomProvider: RandomProvider, private threadProvider: ThreadProvider) {
   }
 
   ngOnInit(): void {
